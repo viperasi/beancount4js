@@ -1,0 +1,27 @@
+{
+  "name": "beancount4js",
+  "version": "0.1.0",
+  "description": "js implementation of beancount",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile": "npx babel src/ --out-dir lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/viperasi/beancount4js.git"
+  },
+  "keywords": [],
+  "author": "viperasi",
+  "license": "GPL-2.0",
+  "bugs": {
+    "url": "https://github.com/viperasi/beancount4js/issues"
+  },
+  "homepage": "https://github.com/viperasi/beancount4js#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.22.5",
+    "@babel/core": "^7.22.5",
+    "@babel/plugin-proposal-class-properties": "^7.18.6",
+    "@babel/preset-env": "^7.22.5"
+  }
+}
